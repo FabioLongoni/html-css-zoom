@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.main__container {
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    color: white;
+}
+
+.video__section, .tool__section {
+    border: 1px solid rgb(41, 36, 36);
+}
+
+.video__section {
+    flex-grow: 1;
+    padding: 50px 50px 20px 50px
+}
+
+.speaker__video {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+}
+
+.video__card {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.card {
+    width: calc(calc(100% - 30px)/7);
+    aspect-ratio: 1.5 / 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.card__name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    padding: 2px;
+}
+
