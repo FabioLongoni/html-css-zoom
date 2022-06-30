@@ -32,9 +32,10 @@ img {
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 8px;
     position: absolute;
-    right: 5px;
+    right: 30px;
     top: 5px;
     padding: 5px;
+    z-index: 999;
 }
 
 .video__card {
