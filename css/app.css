@@ -66,6 +66,7 @@ img {
 .tool__section {
     display: flex;
     justify-content: space-between;
+    background-color: #222222;
 }
 
 .tool__section i {
@@ -74,7 +75,6 @@ img {
 
 .mute__video__tool {
     display: flex;
-    max-width: 20%;
     padding: 10px;
     align-items: center;
     gap: 20px;
@@ -84,14 +84,14 @@ img {
     font-size: 12px;
 }
 
-.mute__tool, .video__tool {
+.tool {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
 }
 
-.center__tool{
+.center__tool, .end__meeting{
     display: flex;
     align-items: center;
     gap: 20px;
@@ -101,4 +101,24 @@ img {
 
 #share__screen {
     color: green;
+}
+
+.end__meeting {
+    background-color: #4a4a4a;
+    color: red;
+}
+
+/* hover */
+
+.card:hover {
+    border: 1px solid yellow;
+    cursor: pointer;
+}
+
+.tool__section div:hover {
+    cursor: pointer;
+}
+
+.speaker__video {
+    cursor: pointer;
 }
