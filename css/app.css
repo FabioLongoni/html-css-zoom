@@ -9,11 +9,13 @@ img {
 }
 
 .main__container {
-    height: 100vh;
+    max-height: 100vh;
     display: flex;
     background-color: black;
     flex-direction: column;
     color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
 }
 
 .video__section, .tool__section {
@@ -22,7 +24,8 @@ img {
 
 .video__section {
     flex-grow: 1;
-    padding: 50px 50px 20px 50px
+    padding: 50px 50px 20px 50px;
+    overflow: auto;
 }
 
 .speaker__video {
@@ -55,4 +58,3 @@ img {
     background-color:rgba(0, 0, 0, 0.5) ;
     padding: 2px;
 }
-
